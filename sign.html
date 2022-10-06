@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            padding: 30px 40px;
+        }
+    </style>
+    <title>Sign up Form</title>
+</head>
+<body>
+    <!-- Card -->
+    <div class="card">
+        <img src="./img/logo.png" class="card-img" alt="logo">
+        <h1 class="card-title">Sign up</h1>
+        <div class="card-body">
+            <form>
+                <div class="field">
+                    <i class="material-symbols-outlined ico">badge</i>
+                    <input type="text" id="name" name="email" placeholder="Name" required autofocus class="inp">
+                </div>
+                <div class="field">
+                    <i class="material-symbols-outlined ico">mail</i>
+                    <input type="email" id="email" name="email" placeholder="Email Address" required class="inp">
+                </div>
+                <div class="field">
+                    <i class="material-symbols-outlined ico">lock</i>
+                    <input type="password" id="password" name="password" placeholder="Password" required class="inp">
+                </div>
+                <div class="field">
+                    <i class="material-symbols-outlined ico">check</i>
+                    <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password" required class="inp">
+                </div>
+                <div class="field">
+                    <input type="submit" class="btn" value="Sign up">
+                </div>
+            </form>
+        </div>
+        <div class="card-footer">
+            <p class="sign-up-link">I have account already. <a href="./index.html">Login</a></p>
+        </div>
+    </div>
+    <!-- End Card --> 
+</body>
+</html>
